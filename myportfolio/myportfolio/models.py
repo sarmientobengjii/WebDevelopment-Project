@@ -6,7 +6,6 @@ class Visit(models.Model):
 
 from django.db import models
 
-# Example model
 class Visitor(models.Model):
     ip_address = models.GenericIPAddressField()
     timestamp = models.DateTimeField(auto_now_add=True)
